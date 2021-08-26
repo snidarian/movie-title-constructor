@@ -3,3 +3,456 @@
 1629994046618	Marionette	INFO	Listening on port 38577
 1629994046645	Marionette	WARN	TLS certificate errors will be ignored for this session
 1629994055781	Marionette	INFO	Stopped listening on port 38577
+1629995958198	geckodriver	INFO	Listening on 127.0.0.1:33695
+1629995958241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9Pgq5R"
+1629995959331	Marionette	INFO	Listening on port 40685
+1629995959346	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629995973385	Marionette	INFO	Stopped listening on port 40685
+1629996261470	geckodriver	INFO	Listening on 127.0.0.1:43665
+1629996261513	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKojeBg"
+1629996262625	Marionette	INFO	Listening on port 39755
+1629996262716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629996273975	Marionette	INFO	Stopped listening on port 39755
+1629996349123	geckodriver	INFO	Listening on 127.0.0.1:33745
+1629996349166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet3yNJb"
+1629996350251	Marionette	INFO	Listening on port 43245
+1629996350271	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629996848859	geckodriver	INFO	Listening on 127.0.0.1:34703
+1629996848867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo0VkzD"
+1629996849970	Marionette	INFO	Listening on port 37059
+1629996850070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629996879454	Marionette	INFO	Stopped listening on port 43245
+1629996880680	Marionette	INFO	Stopped listening on port 37059
+1629996966837	geckodriver	INFO	Listening on 127.0.0.1:38957
+1629996967879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7WYEN2"
+1629996968983	Marionette	INFO	Listening on port 40027
+1629996969083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629996997144	Marionette	INFO	Stopped listening on port 40027
+1629997085258	geckodriver	INFO	Listening on 127.0.0.1:40223
+1629997085301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ5Egf0"
+1629997086422	Marionette	INFO	Listening on port 37405
+1629997086504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629997608302	Marionette	INFO	Stopped listening on port 37405
+1629997748135	geckodriver	INFO	Listening on 127.0.0.1:45767
+1629997748141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewZPDIy"
+1629997749263	Marionette	INFO	Listening on port 33413
+1629997749345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629997779522	Marionette	INFO	Stopped listening on port 33413
+1629997791177	geckodriver	INFO	Listening on 127.0.0.1:33509
+1629997791220	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefLTdFs"
+1629997792288	Marionette	INFO	Listening on port 42405
+1629997792323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629997810274	Marionette	INFO	Stopped listening on port 42405
+1629998192850	geckodriver	INFO	Listening on 127.0.0.1:34917
+1629998192893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledh1nRr"
+1629998194006	Marionette	INFO	Listening on port 33241
+1629998194096	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629998218884	Marionette	INFO	Stopped listening on port 33241
+1629998883946	geckodriver	INFO	Listening on 127.0.0.1:43595
+1629998883988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEA3yab"
+1629998885095	Marionette	INFO	Listening on port 43047
+1629998885192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629998912901	Marionette	INFO	Stopped listening on port 43047
+1629998915068	geckodriver	INFO	Listening on 127.0.0.1:54749
+1629998915111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGk5LVA"
+1629998916224	Marionette	INFO	Listening on port 41579
+1629998916314	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1629999538105	geckodriver	INFO	Listening on 127.0.0.1:37039
+1629999538147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOwWIEJ"
+1629999539304	Marionette	INFO	Listening on port 38377
+1629999539350	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629999624510	Marionette	INFO	Stopped listening on port 38377
+1629999906774	geckodriver	INFO	Listening on 127.0.0.1:59815
+1629999906818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerHjPZL"
+1629999907923	Marionette	INFO	Listening on port 46791
+1629999908021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629999945023	Marionette	INFO	Stopped listening on port 46791
+1630000003344	geckodriver	INFO	Listening on 127.0.0.1:45177
+1630000003362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehs5bgY"
+1630000004500	Marionette	INFO	Listening on port 46759
+1630000004565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630000098285	geckodriver	INFO	Listening on 127.0.0.1:38947
+1630000098291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePZpZGi"
+1630000099407	Marionette	INFO	Listening on port 42181
+1630000099495	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630000115640	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630000135422	Marionette	INFO	Stopped listening on port 42181
+1630000495156	geckodriver	INFO	Listening on 127.0.0.1:40007
+1630000495162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilethyt9P"
+1630000496269	Marionette	INFO	Listening on port 37235
+1630000496366	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630000526545	Marionette	INFO	Stopped listening on port 46759
+1630000528763	Marionette	INFO	Stopped listening on port 37235
+1630000530856	geckodriver	INFO	Listening on 127.0.0.1:42809
+1630000530898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehD3fma"
+1630000532006	Marionette	INFO	Listening on port 35843
+1630000532101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1630000578886	Marionette	INFO	Stopped listening on port 35843
+1630004609553	geckodriver	INFO	Listening on 127.0.0.1:56295
+1630004609597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesHwW3l"
+1630004610690	Marionette	INFO	Listening on port 38201
+1630004610705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630005003658	geckodriver	INFO	Listening on 127.0.0.1:48359
+1630005003664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQibo2U"
+1630005004770	Marionette	INFO	Listening on port 45499
+1630005004867	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630005059659	Marionette	INFO	Stopped listening on port 45499
+1630005137328	geckodriver	INFO	Listening on 127.0.0.1:51411
+1630005137372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9pQtti"
+1630005138493	Marionette	INFO	Listening on port 45945
+1630005138575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://m.media-amazon.com/images/S/sash/LS7w1PqAEGrIzvL.js, line 10: TypeError: B is null
+1630005239636	geckodriver	INFO	Listening on 127.0.0.1:58579
+1630005239678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSAAyeK"
+1630005240826	Marionette	INFO	Listening on port 41827
+1630005240882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630005472143	geckodriver	INFO	Listening on 127.0.0.1:50119
+1630005472186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesLIx9Y"
+1630005473271	Marionette	INFO	Listening on port 35439
+1630005473290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630005490207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630005627600	geckodriver	INFO	Listening on 127.0.0.1:57323
+1630005627643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevHWDVS"
+1630005628808	Marionette	INFO	Listening on port 42787
+1630005628847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630006488055	geckodriver	INFO	Listening on 127.0.0.1:42309
+1630006488099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4kMQ14"
+1630006489228	Marionette	INFO	Listening on port 35651
+1630006489302	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630006542769	Marionette	INFO	Stopped listening on port 35651
+1630006545243	geckodriver	INFO	Listening on 127.0.0.1:40897
+1630006545286	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJHhfxN"
+1630006546367	Marionette	INFO	Listening on port 36369
+1630006546390	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630006644324	Marionette	INFO	Stopped listening on port 36369
+1630006672124	geckodriver	INFO	Listening on 127.0.0.1:41111
+1630006672167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecsRspn"
+1630006673276	Marionette	INFO	Listening on port 45441
+1630006673370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630006733024	Marionette	INFO	Stopped listening on port 45441
+1630006742266	geckodriver	INFO	Listening on 127.0.0.1:59233
+1630006742309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5oSuxp"
+1630006743437	Marionette	INFO	Listening on port 41223
+1630006743513	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630006749436	Marionette	INFO	Stopped listening on port 41223
+1630006774153	geckodriver	INFO	Listening on 127.0.0.1:34341
+1630006774196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTuB8i5"
+1630006775355	Marionette	INFO	Listening on port 38751
+1630006775400	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630006803558	geckodriver	INFO	Listening on 127.0.0.1:55021
+1630006803563	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemcRzH5"
+1630006804600	Marionette	INFO	Stopped listening on port 38751
+1630006804678	Marionette	INFO	Listening on port 35311
+1630006804765	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 31853, MediaDecoderStateMachine #1] WARNING: Decoder=7f7c0fb10000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file ./dom/media/MediaDecoderStateMachine.cpp, line 3470
+[Child 31853, MediaDecoderStateMachine #1] WARNING: Decoder=7f7c0fb10000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file ./dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630007458362	Marionette	INFO	Stopped listening on port 38201
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630007459286	Marionette	INFO	Stopped listening on port 41827
+1630007460150	Marionette	INFO	Stopped listening on port 35439
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630007463406	Marionette	INFO	Stopped listening on port 41579
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630007465294	Marionette	INFO	Stopped listening on port 45945
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1630007466535	Marionette	INFO	Stopped listening on port 42787
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630007646767	Marionette	INFO	Stopped listening on port 35311
+1630007675655	geckodriver	INFO	Listening on 127.0.0.1:57895
+1630007675698	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileP2Ug6m"
+1630007676802	Marionette	INFO	Listening on port 38777
+1630007676901	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630007924911	geckodriver	INFO	Listening on 127.0.0.1:36437
+1630007924954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWH22ou"
+1630007926062	Marionette	INFO	Listening on port 45411
+1630007926157	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630007966069	Marionette	INFO	Stopped listening on port 45411
+1630008042177	geckodriver	INFO	Listening on 127.0.0.1:50095
+1630008042219	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelvMNRy"
+1630008043368	Marionette	INFO	Listening on port 43077
+1630008043422	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630008044409	Marionette	INFO	Stopped listening on port 38777
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1630008057941	Marionette	INFO	Stopped listening on port 43077
+1630010601356	geckodriver	INFO	Listening on 127.0.0.1:53247
+1630010601362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXSm2qk"
+1630010602483	Marionette	INFO	Listening on port 38643
+1630010602565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630010734395	Marionette	INFO	Stopped listening on port 38643
+1630010823293	geckodriver	INFO	Listening on 127.0.0.1:46721
+1630010823336	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7xKU4c"
+1630010824487	Marionette	INFO	Listening on port 38595
+1630010824540	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630010998028	Marionette	INFO	Stopped listening on port 38595
+1630011001764	geckodriver	INFO	Listening on 127.0.0.1:38167
+1630011001807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTUmQt0"
+1630011002907	Marionette	INFO	Listening on port 45457
+1630011002915	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+JavaScript error: moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/background.js, line 10: Error: Permission denied to access property "document" on cross-origin object
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+Extension error: SecurityError: Permission denied to access property "document" on cross-origin object undefined 153
+[[Exception stack
+activate@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:153:9
+setOptions@moz-extension://0fef09ed-c1fc-4608-9cdb-758b62c799ec/inspect.js:61:12
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:623:13
+applySafe@resource://gre/modules/ExtensionCommon.jsm:600:19
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:830:22
+]]
+1630011447640	geckodriver	INFO	Listening on 127.0.0.1:45305
+1630011447683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTvRVpT"
+1630011448777	Marionette	INFO	Listening on port 39163
+1630011448790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630011479838	Marionette	INFO	Stopped listening on port 39163
+1630011528738	geckodriver	INFO	Listening on 127.0.0.1:42997
+1630011528780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4oBTOC"
+1630011529901	Marionette	INFO	Listening on port 36623
+1630011529984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1630011538237	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1630011888648	Marionette	INFO	Stopped listening on port 36623
+1630011891756	geckodriver	INFO	Listening on 127.0.0.1:52165
+1630011891799	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezUmpOO"
+1630011892895	Marionette	INFO	Listening on port 41403
+1630011892902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: https://m.media-amazon.com/images/S/sash/EbJ50esdfIcjt2R.js, line 94: NS_ERROR_NOT_INITIALIZED: 
+1630012505055	geckodriver	INFO	Listening on 127.0.0.1:36845
+1630012508993	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCRR5OI"
+1630012510258	Marionette	INFO	Listening on port 33949
+1630012510324	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+1630012511571	Marionette	INFO	Stopped listening on port 41403
+1630012513047	Marionette	INFO	Stopped listening on port 45457
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1630012539778	Marionette	INFO	Stopped listening on port 33949
+1630012557720	geckodriver	INFO	Listening on 127.0.0.1:45155
+1630012561558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDqXtFR"
+1630012562890	Marionette	INFO	Listening on port 33669
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+1630012562961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1630012580450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://m.media-amazon.com/images/S/sash/LS7w1PqAEGrIzvL.js, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
