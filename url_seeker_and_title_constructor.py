@@ -3,7 +3,7 @@
 # This program will:
 # 1. Take a list of titles and release years ("[MOVIE TITLE], [YEAR]") from csv file
 # 2. reach the imdb pages of the .csv rows with advanced search, take the urls and create a "url_list.csv" file in the CWD
-# 3. Create a titles_list.csv file delimited by spaces in the CWD using the urls in url_list.csv.
+# 3. Create a titles_metadata.csv file delimited by spaces in the CWD using the urls in url_list.csv.
 
 # IMPORTS
 from selenium import webdriver
@@ -81,34 +81,51 @@ def search_titles_and_create_url_list_csv() -> None:
             # important that the row item(s) be included as list items or else it will make every single character a different row-field
             url_list_writer.writerow([url_item])
 
-def scrape_movie_data_with_urls_csv() -> None:
+def scrape_movie_data_with_urls_csv() -> list:
     # use url_list.csv to reach each page
     with open('url_list.csv') as url_data_file:
         csv_reader = csv.reader(url_data_file, delimiter='\n')
         # for each url: .get() method and then scrape [Title, year, three top actors, genres]
-        movie_data_list = []
+        titles_metadata_list = []
         for url in csv_reader:
             print(f"Getting url: {url}")
             driver.get(f"{url[0]}")
             movie_title = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1").text
             movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a").text
-            print(movie_title)
-            print(movie_year)
+            #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
+            actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[1]/a").text
+            actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[2]/a").text
+            actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[3]/a").text
+            genre_list = []
+            for _ in range(5):
+                try:
+                    genre = driver.find_element_by_xpath(f"/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[1]/div/a[{_}]").text
+                    genre_list.append(genre)
+                except:
+                    # out of listed genres
+                    pass
             # make list item
+            title_metadata = [movie_title, movie_year, actor_1, actor_2, actor_3, genre_list]
+            # add list item to 'list of lists' title_metadata_list
+            titles_metadata_list.append(title_metadata)
+        return titles_metadata_list
+
             
             
 
-            
-
-def contruct_formatted_titles_and_save_to_csv() -> None:
-    pass
+def contruct_formatted_titles_and_save_to_csv(metadata_list_of_lists) -> None:
+    with open('titles_list.csv', mode='w') as title_metadata_file:
+        metadata_writer = csv.writer(title_metadata_file, delimiter=",")
+        metadata_writer.writerows()
 
 
 def main():
     # use search_titles.csv to create url_list.csv
     search_titles_and_create_url_list_csv()
     # use url_list.csv to reach each movie page and scrape relevant data
-    scrape_movie_data_with_urls_csv()
+    titles_data = scrape_movie_data_with_urls_csv()
+    # format and place list of lists in title_metadata.csv
+    contruct_formatted_titles_and_save_to_csv(titles_data)
               
 
 
