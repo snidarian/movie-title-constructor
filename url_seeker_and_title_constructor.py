@@ -129,10 +129,9 @@ def main():
     search_titles_and_create_url_list_csv()
     # use url_list.csv to reach each movie page and scrape relevant data
     titles_data = scrape_movie_data_with_urls_csv()
-    print("Scraped data deposited in 'titles_list.csv' file")
     # format and place list of lists in title_metadata.csv
     contruct_formatted_titles_and_save_to_csv(titles_data)
-              
+    print("Scraped data deposited in 'titles_list.csv' file")          
 
 
     
