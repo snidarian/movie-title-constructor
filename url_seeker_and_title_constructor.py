@@ -116,14 +116,14 @@ def scrape_movie_data_with_urls_csv() -> list:
 
 def contruct_formatted_titles_and_save_to_csv(metadata_list_of_lists) -> None:
     with open('titles_list.csv', mode='w') as title_metadata_file:
-        metadata_writer = csv.writer(title_metadata_file, delimiter=" ", quoting=csv.QUOTE_NONE, escapechar='%')
+        metadata_writer = csv.writer(title_metadata_file, delimiter=",",)
         for movie in metadata_list_of_lists:
             metadata_writer.writerows([movie])
 
 
 def main():
     # use search_titles.csv to create url_list.csv
-    #search_titles_and_create_url_list_csv()
+    search_titles_and_create_url_list_csv()
     # use url_list.csv to reach each movie page and scrape relevant data
     titles_data = scrape_movie_data_with_urls_csv()
     print("LIST OF LISTS")
