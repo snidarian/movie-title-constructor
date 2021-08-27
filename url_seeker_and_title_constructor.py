@@ -64,7 +64,7 @@ def advanced_search_to_grab_url(title_string, year) -> str:
         # return the recovered URL
         return driver.current_url
     except:
-        print("URL not found. Check title spelling and year in search_titles.csv")
+        print(f"URL not found for {title_string} {year}. Check title spelling and year in search_titles.csv")
 
 
 # Use search_titles.csv file to create a url_list.csv file
@@ -114,8 +114,6 @@ def scrape_movie_data_with_urls_csv() -> list:
             titles_metadata_list.append(title_metadata)
         return titles_metadata_list
 
-            
-            
 
 def contruct_formatted_titles_and_save_to_csv(metadata_list_of_lists) -> None:
     with open('titles_list.csv', mode='w') as title_metadata_file:
@@ -124,14 +122,37 @@ def contruct_formatted_titles_and_save_to_csv(metadata_list_of_lists) -> None:
             metadata_writer.writerows([movie])
 
 
+def construct_strings_and_save_to_txt(metadata_list_of_lists) -> None:
+    title_strings_list = []
+    for movie in metadata_list_of_lists:
+        title_string = f"{movie[0]} {movie[1]} {movie[2]} {movie[3]} {movie[4]}"
+        genres_string = ""
+        for genre in movie[5]:
+            genres_string += f" {genre}"
+        title_string += f"{genres_string}"
+        title_strings_list.append(title_string)
+        print(title_string)
+    # write the formatted title strings to a .txt on separate lines
+    with open("title_strings.txt", "w") as title_string_file:
+        for title in title_strings_list:
+            title_string_file.write(f"{title}\n")
+        #title_string_file.writelines(f"{title_strings_list}\n")
+
+
+
 def main():
     # use search_titles.csv to create url_list.csv
-    search_titles_and_create_url_list_csv()
+    #search_titles_and_create_url_list_csv()
     # use url_list.csv to reach each movie page and scrape relevant data
     titles_data = scrape_movie_data_with_urls_csv()
     # format and place list of lists in title_metadata.csv
     contruct_formatted_titles_and_save_to_csv(titles_data)
+    # Notify that the scraped data has been deposited
     print("Scraped data deposited in 'titles_list.csv' file")          
+    # construct strings and deposit in title_strings.txt file for copying
+    construct_strings_and_save_to_txt(titles_data)
+
+    
 
 
     
