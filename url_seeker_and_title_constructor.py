@@ -57,11 +57,14 @@ def advanced_search_to_grab_url(title_string, year) -> str:
     to_year_box.send_keys(Keys.RETURN)
     time.sleep(3)
     # click on the top search result and navigate to that page.
-    first_search_result = driver.find_element_by_class_name("lister-item-header").find_element_by_tag_name('a')
-    # click the link and navigate to the movie-listing page
-    first_search_result.click()
-    # return the recovered URL
-    return driver.current_url
+    try:
+        first_search_result = driver.find_element_by_class_name("lister-item-header").find_element_by_tag_name('a')
+        # click the link and navigate to the movie-listing page
+        first_search_result.click()
+        # return the recovered URL
+        return driver.current_url
+    except:
+        print("URL not found. Check title spelling and year in search_titles.csv")
 
 
 # Use search_titles.csv file to create a url_list.csv file
