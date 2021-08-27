@@ -92,6 +92,7 @@ def scrape_movie_data_with_urls_csv() -> list:
             driver.get(f"{url[0]}")
             movie_title = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1").text
             movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a").text
+            movie_year = f"({movie_year})"
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
             actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[1]/a").text
             actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[2]/a").text
@@ -115,15 +116,17 @@ def scrape_movie_data_with_urls_csv() -> list:
 
 def contruct_formatted_titles_and_save_to_csv(metadata_list_of_lists) -> None:
     with open('titles_list.csv', mode='w') as title_metadata_file:
-        metadata_writer = csv.writer(title_metadata_file, delimiter=",")
-        metadata_writer.writerows()
+        metadata_writer = csv.writer(title_metadata_file, delimiter=" ", quoting=csv.QUOTE_NONE, escapechar='%')
+        for movie in metadata_list_of_lists:
+            metadata_writer.writerows([movie])
 
 
 def main():
     # use search_titles.csv to create url_list.csv
-    search_titles_and_create_url_list_csv()
+    #search_titles_and_create_url_list_csv()
     # use url_list.csv to reach each movie page and scrape relevant data
     titles_data = scrape_movie_data_with_urls_csv()
+    print("LIST OF LISTS")
     # format and place list of lists in title_metadata.csv
     contruct_formatted_titles_and_save_to_csv(titles_data)
               
