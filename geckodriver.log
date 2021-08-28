@@ -1409,3 +1409,55 @@ JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: Inv
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1630077578017	Marionette	INFO	Stopped listening on port 41997
+1630097247757	geckodriver	INFO	Listening on 127.0.0.1:45435
+1630097252702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuf60z4"
+1630097254023	Marionette	INFO	Listening on port 37891
+1630097254105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Child 28310, MediaDecoderStateMachine #1] WARNING: Decoder=7f5899681000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file ./dom/media/MediaDecoderStateMachine.cpp, line 3470
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1630097423042	Marionette	INFO	Stopped listening on port 37891
+1630194351811	geckodriver	INFO	Listening on 127.0.0.1:33585
+1630194356835	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePvg6fk"
+1630194358122	Marionette	INFO	Listening on port 46855
+1630194358158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 568: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390131,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390131,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630194375050	Marionette	INFO	Stopped listening on port 46855

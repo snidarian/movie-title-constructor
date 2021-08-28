@@ -142,7 +142,7 @@ def construct_strings_and_save_to_txt(metadata_list_of_lists) -> None:
 
 def main():
     # use search_titles.csv to create url_list.csv
-    #search_titles_and_create_url_list_csv()
+    search_titles_and_create_url_list_csv()
     # use url_list.csv to reach each movie page and scrape relevant data
     titles_data = scrape_movie_data_with_urls_csv()
     # format and place list of lists in title_metadata.csv
