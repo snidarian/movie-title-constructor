@@ -65,6 +65,7 @@ def advanced_search_to_grab_url(title_string, year) -> str:
         return driver.current_url
     except:
         print(f"URL not found for {title_string} {year}. Check title spelling and year in search_titles.csv")
+        return None
 
 
 # Use search_titles.csv file to create a url_list.csv file
@@ -75,7 +76,10 @@ def search_titles_and_create_url_list_csv() -> None:
             url_list = []
             for row in csv_reader:
                 url = advanced_search_to_grab_url(row[0], row[1])
-                url_list.append(url)
+                if url == None:
+                    pass
+                else:
+                    url_list.append(url)
             print(url_list)
     # create url_list.csv file
     with open('url_list.csv', mode='w') as url_data_file:
