@@ -1599,3 +1599,9 @@ JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: 
 JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
 JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
 JavaScript error: https://m.media-amazon.com/images/S/sash/LS7w1PqAEGrIzvL.js, line 10: TypeError: B is null
+1630195828828	geckodriver	INFO	Listening on 127.0.0.1:37141
+1630195832641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3sHAKp"
+1630195833887	Marionette	INFO	Listening on port 45737
+1630195833956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement

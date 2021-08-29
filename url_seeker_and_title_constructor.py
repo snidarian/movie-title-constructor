@@ -76,6 +76,7 @@ def search_titles_and_create_url_list_csv() -> None:
             url_list = []
             for row in csv_reader:
                 url = advanced_search_to_grab_url(row[0], row[1])
+                # if url == None (meaning the URL wasn't found and returned from the function call)
                 if url == None:
                     pass
                 else:
