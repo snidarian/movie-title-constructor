@@ -13,6 +13,8 @@ from selenium.webdriver.firefox.options import Options
 
 # For using special keys like enter, alt, F1, etc...
 from selenium.webdriver.common.keys import Keys
+# for error handling
+import selenium.common.exceptions as selenium_errors
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -98,22 +100,26 @@ def scrape_movie_data_with_urls_csv() -> list:
         # for each url: .get() method and then scrape [Title, year, three top actors, genres]
         titles_metadata_list = []
         for url in csv_reader:
-            print(f"Getting url: {url}")
+            print(f"Getting data at url: {url}")
             driver.get(f"{url[0]}")
             movie_title = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1").text
             try:
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a").text
-            except:
+            except selenium_errors.NoSuchElementException:
                 # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
-            except:
-                # the year entry could also be at this path if the original title is too long
-                movie_year = driver.find_element_by_xpath('/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a')
+                
             movie_year = f"({movie_year})"
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
-            actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[1]/a").text
-            actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[2]/a").text
-            actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[3]/a").text
+            # If actors aren't found at these xpaths then try the xpath in the exception block
+            try:
+                actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[1]/a").text
+                actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[2]/a").text
+                actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[3]/a").text
+            except:
+                actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[1]/a").text
+                actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[2]/a").text
+                actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[3]/a").text
             genre_list = []
             for _ in range(5):
                 try:
