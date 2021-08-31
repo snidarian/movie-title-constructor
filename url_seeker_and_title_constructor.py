@@ -25,6 +25,8 @@ from bs4 import BeautifulSoup as bs
 import csv
 # colored terminal output for highlighting certain pieces of information useful to the user
 
+import argparse
+
 
 # SETTING UP SELENIUM ON FIREFOX BROWSER
 # setting up the Firefox browser with global scope
@@ -104,6 +106,9 @@ def scrape_movie_data_with_urls_csv() -> list:
             except:
                 # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
+            except:
+                # the year entry could also be at this path if the original title is too long
+                movie_year = driver.find_element_by_xpath('/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a')
             movie_year = f"({movie_year})"
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
             actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[1]/a").text
@@ -150,16 +155,34 @@ def construct_strings_and_save_to_txt(metadata_list_of_lists) -> None:
 
 
 def main():
-    # use search_titles.csv to create url_list.csv
-    search_titles_and_create_url_list_csv()
-    # use url_list.csv to reach each movie page and scrape relevant data
-    titles_data = scrape_movie_data_with_urls_csv()
-    # format and place list of lists in title_metadata.csv
-    contruct_formatted_titles_and_save_to_csv(titles_data)
-    # Notify that the scraped data has been deposited
-    print("Scraped data deposited in 'titles_list.csv' file")          
-    # construct strings and deposit in title_strings.txt file for copying
-    construct_strings_and_save_to_txt(titles_data)
+    # set up argparse
+    parser = argparse.ArgumentParser()
+    args = parser.add_argument("--url", help="Start with urls_list.csv file", action="store_true")
+    args = parser.parse_args()
+
+    # if the --url flag is given begin search with url_list.csv file
+    if args.url:
+        print("you selected 'start with urls_list.csv' option")
+        # use url_list.csv to reach each movie page and scrape relevant data
+        titles_data = scrape_movie_data_with_urls_csv()
+        # format and place list of lists in title_metadata.csv
+        contruct_formatted_titles_and_save_to_csv(titles_data)
+        # Notify that the scraped data has been deposited
+        print("Scraped data deposited in 'titles_list.csv' file")          
+        # construct strings and deposit in title_strings.txt file for copying
+        construct_strings_and_save_to_txt(titles_data)
+    # else begin normal search starting with search_titles.csv
+    else:
+        # use search_titles.csv to create url_list.csv
+        search_titles_and_create_url_list_csv()
+        # use url_list.csv to reach each movie page and scrape relevant data
+        titles_data = scrape_movie_data_with_urls_csv()
+        # format and place list of lists in title_metadata.csv
+        contruct_formatted_titles_and_save_to_csv(titles_data)
+        # Notify that the scraped data has been deposited
+        print("Scraped data deposited in 'titles_list.csv' file")          
+        # construct strings and deposit in title_strings.txt file for copying
+        construct_strings_and_save_to_txt(titles_data)
 
     
 
