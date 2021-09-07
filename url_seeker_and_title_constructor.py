@@ -35,7 +35,9 @@ import argparse
 options = Options()
 
 # set this to the path of your firefox profile file in the .mozilla folder in home dir
-options.profile = '/home/cn1d4r14n/.mozilla/firefox/t8oqdk41.default-esr'
+profile0 = 'ct8fbiwt.default'
+profile1 = 't8oqdk41.default-esr'
+options.profile = f'/home/cn1d4r14n/.mozilla/firefox/{profile0}'
 # allows you to run the browser as a background process I believe
 options.headless = False
 
