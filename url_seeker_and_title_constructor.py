@@ -35,16 +35,17 @@ import argparse
 options = Options()
 
 # set this to the path of your firefox profile file in the .mozilla folder in home dir
-profile0 = 'ct8fbiwt.default'
-profile1 = 't8oqdk41.default-esr'
+profile0 = '6ugn43v9.default-esr'
+profile1 = '79rs4mg6.default'
 options.profile = f'/home/cn1d4r14n/.mozilla/firefox/{profile0}'
 # allows you to run the browser as a background process I believe
 options.headless = False
 
 # link this to a web browser driver - here I'm using the geckodriver web driver file I downloaded online
-service = Service('/home/cn1d4r14n/Documents/geckodriver')
+# This bit no necessary if you install geckdriver in /usr/bin
+#service = Service('/home/cn1d4r14n/Documents/geckodriver')
 
-driver = webdriver.Firefox(options=options, service=service)
+driver = webdriver.Firefox(options=options)
 
 
 # Takes title string and year and returns URL string of first result
