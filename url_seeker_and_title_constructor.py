@@ -111,6 +111,8 @@ def scrape_movie_data_with_urls_csv() -> list:
             except selenium_errors.NoSuchElementException:
                 # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
+            finally:
+                print("Cannot acquire movie title. It might be trying to extract data from a tv show")
                 
             movie_year = f"({movie_year})"
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
@@ -123,6 +125,8 @@ def scrape_movie_data_with_urls_csv() -> list:
                 actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[1]/a").text
                 actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[2]/a").text
                 actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[3]/a").text
+            finally:
+                print("Not able to extract data at URL. Check formatting. It might be trying to extract from a TV show page format")
             genre_list = []
             for _ in range(5):
                 try:
