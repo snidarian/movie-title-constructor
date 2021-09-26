@@ -126,7 +126,7 @@ def scrape_movie_data_with_urls_csv() -> list:
                 # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
             except selenium_errors.NoSuchElementException:
-                print("{RED}Movie year data not found at second xpath{RESET}. Setting value to NULL")
+                print(f"{RED}Movie year data not found at second xpath{RESET}. Setting value to NULL")
                 movie_year="NULL"
             movie_year = f"({movie_year})"
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
