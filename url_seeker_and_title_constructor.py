@@ -117,18 +117,24 @@ def scrape_movie_data_with_urls_csv() -> list:
             driver.get(f"{url[0]}")
             movie_title = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1").text
             # Try to find movie year data at first xpath
+            # if movie year is not found at the first xpath set try_second_format to True so the second xpath can be tried
+            try_second_format=False
             try:
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a").text
             except selenium_errors.NoSuchElementException:
                 print(f"{RED}Movie year data not found at first xpath{RESET}")
-            # Try to find movie year data at second xpath
-            try:
-                # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
-                movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
-            except selenium_errors.NoSuchElementException:
-                print(f"{RED}Movie year data not found at second xpath{RESET}. Setting value to NULL")
-                movie_year="NULL"
+            if try_second_format:
+                # Try to find movie year data at second xpath
+                try:
+                    # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
+                    movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
+                except selenium_errors.NoSuchElementException:
+                    print(f"{RED}Movie year data not found at second xpath{RESET}. Setting value to NULL")
+                    movie_year="NULL"
+            else:
+                pass
             movie_year = f"({movie_year})"
+            
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
             # If actors aren't found at these xpaths then try the xpath in the exception block
             # Try_second_format is a boolean that starts out as False and is switched to true when the first format isn't successful
