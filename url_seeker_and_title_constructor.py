@@ -123,6 +123,7 @@ def scrape_movie_data_with_urls_csv() -> list:
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a").text
             except selenium_errors.NoSuchElementException:
                 print(f"{RED}Movie year data not found at first xpath{RESET}")
+                try_second_format=True
             if try_second_format:
                 # Try to find movie year data at second xpath
                 try:
@@ -147,7 +148,6 @@ def scrape_movie_data_with_urls_csv() -> list:
                 print(f"{RED}Actor values not found in first format{RESET}")
                 try_second_format=True
             
-
             # Try to find actors in the second format and if not found set all actor values to NULL
             if try_second_format:    
                 try:    
