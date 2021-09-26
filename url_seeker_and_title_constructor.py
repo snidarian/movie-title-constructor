@@ -22,12 +22,15 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import time
 # HTML parsing
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs, GuessedAtParserWarning
 # CSV library for writing data into and using data from .csv files
 import csv
 # colored terminal output for highlighting certain pieces of information useful to the user
 
 import argparse
+
+# colored terminal output
+from colorama import Fore
 
 
 # SETTING UP SELENIUM ON FIREFOX BROWSER
@@ -46,6 +49,13 @@ options.headless = False
 #service = Service('/home/cn1d4r14n/Documents/geckodriver')
 
 driver = webdriver.Firefox(options=options)
+
+
+# Ansi color escape code
+RED=Fore.RED
+GREEN=Fore.GREEN
+RESET=Fore.RESET
+
 
 
 # Takes title string and year and returns URL string of first result
@@ -106,27 +116,44 @@ def scrape_movie_data_with_urls_csv() -> list:
             print(f"Getting data at url: {url}")
             driver.get(f"{url[0]}")
             movie_title = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/h1").text
+            # Try to find movie year data at first xpath
             try:
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[1]/a").text
             except selenium_errors.NoSuchElementException:
+                print(f"{RED}Movie year data not found at first xpath{RESET}")
+            # Try to find movie year data at second xpath
+            try:
                 # the entry is a tv movie the year link listing will be found as the second list item at the end of the xpath (not the first)
                 movie_year = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[1]/div[1]/div[2]/ul/li[2]/a").text
-            finally:
-                print("Cannot acquire movie title. It might be trying to extract data from a tv show")
-                
+            except selenium_errors.NoSuchElementException:
+                print("{RED}Movie year data not found at second xpath{RESET}. Setting value to NULL")
+                movie_year="NULL"
             movie_year = f"({movie_year})"
             #lead_actors_list = driver.find_elements_by_class_name("ipc-inline-list__item")
             # If actors aren't found at these xpaths then try the xpath in the exception block
+            # Try_second_format is a boolean that starts out as False and is switched to true when the first format isn't successful
+            try_second_format = False
             try:
                 actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[1]/a").text
                 actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[2]/a").text
                 actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[3]/div/ul/li[3]/a").text
-            except:
-                actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[1]/a").text
-                actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[2]/a").text
-                actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[3]/a").text
-            finally:
-                print("Not able to extract data at URL. Check formatting. It might be trying to extract from a TV show page format")
+            except selenium_errors.NoSuchElementException:
+                print(f"{RED}Actor values not found in first format{RESET}")
+                try_second_format=True
+            
+
+            # Try to find actors in the second format and if not found set all actor values to NULL
+            if try_second_format:    
+                try:    
+                    actor_1 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[1]/a").text
+                    actor_2 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[2]/a").text
+                    actor_3 = driver.find_element_by_xpath("/html/body/div[2]/main/div/section[1]/section/div[3]/section/section/div[3]/div[2]/div[1]/div[3]/ul/li[2]/div/ul/li[3]/a").text
+                except selenium_errors.NoSuchElementException:
+                    print(f"{RED}Actors not found in second format. Setting all actor values to NULL{RESET}")
+                    actor_1, actor_2, actor_3 = "NULL", "NULL", "NULL"
+            else:
+                pass
+
             genre_list = []
             for _ in range(5):
                 try:
