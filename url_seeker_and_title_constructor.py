@@ -38,8 +38,8 @@ from colorama import Fore
 options = Options()
 
 # set this to the path of your firefox profile file in the .mozilla folder in home dir
-profile0 = '6ugn43v9.default-esr'
-profile1 = '79rs4mg6.default'
+profile0 = '7w5vg7u0.default-esr'
+profile1 = '5rz75ch6.default'
 options.profile = f'/home/cn1d4r14n/.mozilla/firefox/{profile0}'
 # allows you to run the browser as a background process I believe
 options.headless = False
