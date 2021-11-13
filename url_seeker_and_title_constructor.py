@@ -51,11 +51,10 @@ options.headless = False
 driver = webdriver.Firefox(options=options)
 
 
-# Ansi color escape code
+# Ansi color escape code - constants
 RED=Fore.RED
 GREEN=Fore.GREEN
 RESET=Fore.RESET
-
 
 
 # Takes title string and year and returns URL string of first result

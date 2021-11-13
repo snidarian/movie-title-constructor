@@ -1,32 +1,66 @@
-8 Mile (2002) Eminem Brittany Murphy Kim Basinger Drama Music
-A Clockwork Orange (1971) Malcolm McDowell Patrick Magee Michael Bates Crime Drama Sci-Fi
-Beneath the Planet of the Apes (1970) James Franciscus Kim Hunter Maurice Evans Action Adventure Sci-Fi
-Brewster McCloud (1970) Bud Cort Shelley Duvall Sally Kellerman Comedy Fantasy
-Dave Chappelle: The Closer (2021) NULL NULL NULL Comedy
-Death in Venice (1971) Dirk Bogarde Romolo Valli Mark Burns Drama Romance
-Duel (1971) Dennis Weaver Jacqueline Scott Eddie Firestone Action Thriller
-Escape from the Planet of the Apes (1971) Roddy McDowall Kim Hunter Bradford Dillman Action Sci-Fi
-Get Carter (1971) Michael Caine Ian Hendry Britt Ekland Action Crime Thriller
-Harold and Maude (1971) Ruth Gordon Bud Cort Vivian Pickles Comedy Drama Romance
-Johnny Got His Gun (1971) Timothy Bottoms Kathy Fields Marsha Hunt Drama War
-Klute (1971) Jane Fonda Donald Sutherland Charles Cioffi Crime Mystery Thriller
-Little Big Man (1970) Dustin Hoffman Faye Dunaway Chief Dan George Adventure Comedy Drama
-Macbeth (1971) Jon Finch Francesca Annis Martin Shaw Biography Drama History
-Performance (1970) James Fox Mick Jagger Anita Pallenberg Crime Drama
-Sunday Bloody Sunday (1971) Peter Finch Glenda Jackson Murray Head Drama
-The Andromeda Strain (1971) James Olson Arthur Hill David Wayne Mystery Sci-Fi Thriller
-The Bird with the Crystal Plumage (1970) Tony Musante Suzy Kendall Enrico Maria Salerno Horror Mystery Thriller
-The Boys in the Band (1970) Kenneth Nelson Peter White Leonard Frey Drama
-The French Connection (1971) Gene Hackman Roy Scheider Fernando Rey Action Crime Drama
-The Omega Man (1971) Charlton Heston Anthony Zerbe Rosalind Cash Action Drama Sci-Fi
-The Private Life of Sherlock Holmes (1970) Robert Stephens Christopher Lee Colin Blakely Adventure Comedy Crime
-The Vampire Lovers (1970) Ingrid Pitt Pippa Steel Madeline Smith Horror
-The Conformist (1970) Jean-Louis Trintignant Stefania Sandrelli Gastone Moschin Drama
-The Devils (1971) Vanessa Redgrave Oliver Reed Dudley Sutton Biography Drama History
-The Last Picture Show (1971) Timothy Bottoms Jeff Bridges Cybill Shepherd Drama Romance
-They Call Me Trinity (1970) Terence Hill Bud Spencer Steffen Zacharias Comedy Western
-Throw Away Your Books, Rally in the Streets (1971) Eimei Sasaki Masahiro Saito Yukiko Kobayashi Drama Music
-THX 1138 (1971) Robert Duvall Donald Pleasence Don Pedro Colley Drama Sci-Fi Thriller
-Tora! Tora! Tora! (1970) Martin Balsam Sô Yamamura Jason Robards Action Drama History
-Vanishing Point (1971) Barry Newman Cleavon Little Charlotte Rampling Action Crime Thriller
-Walkabout (1971) Jenny Agutter David Gulpilil Luc Roeg Adventure Drama
+300 (2006) Gerard Butler Lena Headey David Wenham Action Drama
+A Beautiful Mind (2001) Russell Crowe Ed Harris Jennifer Connelly Biography Drama
+Almost Famous (2000) Billy Crudup Patrick Fugit Kate Hudson Adventure Comedy Drama
+American Psycho (2000) Christian Bale Justin Theroux Josh Lucas Crime Drama Horror
+A Walk Among the Tombstones (2014) Liam Neeson Dan Stevens David Harbour Action Crime Drama
+Batman: The Dark Knight (2008) NULL NULL NULL Short Action Adventure
+Bicentennial Man (1999) Robin Williams Embeth Davidtz Sam Neill Comedy Drama Sci-Fi
+Big Mommas: Like Father, Like Son (2011) Martin Lawrence Brandon T. Jackson Jessica Lucas Action Comedy Crime
+Black Hawk Down (2001) Josh Hartnett Ewan McGregor Tom Sizemore Drama History War
+Chaos Walking (2021) Tom Holland Daisy Ridley Demián Bichir Action Adventure Fantasy
+Children of Men (2006) Julianne Moore Clive Owen Chiwetel Ejiofor Action Drama Sci-Fi
+City of God (2002) Alexandre Rodrigues Leandro Firmino Matheus Nachtergaele Crime Drama
+Deepwater Horizon (2016) Mark Wahlberg Kurt Russell Douglas M. Griffin Action Drama History
+Downfall (2004) Bruno Ganz Alexandra Maria Lara Ulrich Matthes Biography Drama History
+Dune (2021) Timothée Chalamet Rebecca Ferguson Zendaya Action Adventure Drama
+Dune (1984) Kyle MacLachlan Virginia Madsen Francesca Annis Action Adventure Sci-Fi
+Eastern Promises (2007) Naomi Watts Viggo Mortensen Armin Mueller-Stahl Action Crime Drama
+Gladiator (2000) Russell Crowe Joaquin Phoenix Connie Nielsen Action Adventure Drama
+How the Grinch Stole Christmas (2000) Jim Carrey Taylor Momsen Kelley Comedy Family Fantasy
+In Time (2011) Justin Timberlake Amanda Seyfried Cillian Murphy Action Sci-Fi Thriller
+Inglourious Basterds (2009) Brad Pitt Diane Kruger Eli Roth Adventure Drama War
+Into the Wild (2007) Emile Hirsch Vince Vaughn Catherine Keener Adventure Biography Drama
+Kill Bill: Vol. 1 (2003) Uma Thurman David Carradine Daryl Hannah Action Crime Drama
+Kill Bill: Vol. 2 (2004) Uma Thurman David Carradine Michael Madsen Action Crime Thriller
+The Last of the Mohicans (1920) Wallace Beery Barbara Bedford Alan Roscoe Action Adventure Drama
+Little Miss Sunshine (2006) Steve Carell Toni Collette Greg Kinnear Comedy Drama
+Lone Survivor (2013) Mark Wahlberg Taylor Kitsch Emile Hirsch Action Biography Drama
+Lost in Translation (2003) Bill Murray Scarlett Johansson Giovanni Ribisi Comedy Drama
+Million Dollar Baby (2004) Hilary Swank Clint Eastwood Morgan Freeman Drama Sport
+No Country for Old Men (2007) Tommy Lee Jones Javier Bardem Josh Brolin Crime Drama Thriller
+Non-Stop (2014) Liam Neeson Julianne Moore Scoot McNairy Action Mystery Thriller
+O Brother, Where Art Thou? (2000) George Clooney John Turturro Tim Blake Nelson Adventure Comedy Crime
+Occupation Rainfall: Behind the Scenes (2021) Mark Coles Smith Dan Ewing Zac Garred Documentary Short
+Planet Dune (2021) Scot Derwingson-Peacock Sharon Desiree Sienna Farall Action Adventure Sci-Fi
+Ready Player One (2018) Tye Sheridan Olivia Cooke Ben Mendelsohn Action Adventure Sci-Fi
+Requiem for a Dream (2000) Ellen Burstyn Jared Leto Jennifer Connelly Drama
+Scream 4 (2011) Neve Campbell Courteney Cox David Arquette Horror Mystery
+Scream 2 (1997) Neve Campbell Courteney Cox David Arquette Horror Mystery
+Scream 3 (2000) David Arquette Neve Campbell Courteney Cox Horror Mystery
+Scream (1996) Neve Campbell Courteney Cox David Arquette Horror Mystery
+Sin City (2005) Mickey Rourke Clive Owen Bruce Willis Crime Thriller
+Slumdog Millionaire (2008) Dev Patel Freida Pinto Saurabh Shukla Drama Romance
+Snatch (2000) Jason Statham Brad Pitt Stephen Graham Comedy Crime
+Space Truckers (1996) Tim Loane Ian Beattie Olwen Fouéré Adventure Comedy Sci-Fi
+R.3.D feat. Bluzie Rockk: 34$T$yDE (2019) NULL NULL NULL Short Music
+Taken (2008) Liam Neeson Maggie Grace Famke Janssen Action Crime Thriller
+Tears of the Sun (2003) Bruce Willis Cole Hauser Monica Bellucci Action Drama Thriller
+That's My Boy (2012) Adam Sandler Andy Samberg Leighton Meester Comedy
+The Curse of La Llorona (2019) Linda Cardellini Raymond Cruz Patricia Velasquez Horror Mystery Thriller
+The Hurt Locker (2008) Jeremy Renner Anthony Mackie Brian Geraghty Drama Thriller War
+The Last Exorcism (2010) Patrick Fabian Ashley Bell Iris Bahr Horror Mystery Thriller
+The Last Samurai (2003) Tom Cruise Ken Watanabe Billy Connolly Action Drama
+The Marksman (2021) Katheryn Winnick Liam Neeson Teresa Ruiz Action Drama Thriller
+The Pianist (2002) Adrien Brody Thomas Kretschmann Frank Finlay Biography Drama Music
+The Pursuit of Happyness (2006) Will Smith Thandiwe Newton Jaden Smith Biography Drama
+The Wailing (2016) Jun Kunimura Jung-min Hwang Kwak Do-won Horror Mystery Thriller
+The Curious Case of Benjamin Button (2008) Brad Pitt Cate Blanchett Tilda Swinton Drama Fantasy Romance
+The Prestige (2006) Christian Bale Hugh Jackman Scarlett Johansson Drama Mystery Sci-Fi
+There Will Be Blood (2007) Daniel Day-Lewis Paul Dano Ciarán Hinds Drama
+The Wrestler (2008) Mickey Rourke Marisa Tomei Evan Rachel Wood Drama Sport
+'V for Vendetta' Unmasked (2006) Joel Silver James McTeigue Stephen Fry Documentary
+Village of the Damned (1995) Christopher Reeve Kirstie Alley Linda Kozlowski Horror Sci-Fi Thriller
+Viva Villa! (1934) Wallace Beery Fay Wray Leo Carrillo Western
+Walk the Line (2005) Joaquin Phoenix Reese Witherspoon Ginnifer Goodwin Biography Drama Music
+Weekend at Bernie's (1989) Andrew McCarthy Jonathan Silverman Catherine Mary Stewart Adventure Comedy Crime
+Zombieland (2009) Jesse Eisenberg Emma Stone Woody Harrelson Adventure Comedy Horror
