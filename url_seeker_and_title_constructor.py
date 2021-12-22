@@ -62,9 +62,9 @@ def advanced_search_to_grab_url(title_string, year) -> str:
     print(f"{title_string} ({year})")
 
     driver.get('https://www.imdb.com/search/title/?ref_=kw_asr_tt')
-    search_box = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[3]/form/div/div[1]/div[2]/input")
-    from_year_box = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[3]/form/div/div[3]/div[2]/input[1]")
-    to_year_box = driver.find_element_by_xpath("/html/body/div[4]/div/div[2]/div[3]/form/div/div[3]/div[2]/input[2]")
+    search_box = driver.find_element_by_xpath("/html/body/div[3]/div/div[2]/div[3]/form/div/div[1]/div[2]/input")
+    from_year_box = driver.find_element_by_xpath("/html/body/div[3]/div/div[2]/div[3]/form/div/div[3]/div[2]/input[1]")
+    to_year_box = driver.find_element_by_xpath("/html/body/div[3]/div/div[2]/div[3]/form/div/div[3]/div[2]/input[2]")
     # enter details into the three boxes
     search_box.send_keys(title_string)
     from_year_box.send_keys(year)
