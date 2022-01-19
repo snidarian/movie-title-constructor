@@ -31,6 +31,9 @@ import argparse
 # colored terminal output
 from colorama import Fore
 
+# import subprocess for running bash commands
+import subprocess
+
 
 # SETTING UP SELENIUM ON FIREFOX BROWSER
 # setting up the Firefox browser with global scope
@@ -57,14 +60,27 @@ RESET=Fore.RESET
 
 
 def get_titles_from_imdb_list_and_store_in_array() -> None:
+    driver.get(f'{args.list_url}')
     pass
 
 
 def use_ls_output_to_grep_to_see_if_title_exists_in_database() -> None:
+    subprocess.run(f"{args.bash_command}")
     pass
 
 
 
+if __name__=='__main__':
+    
+    parser = argparse.ArgumentParser(description="Finds new titles with supplied imdb list")
+    args = parser.add_argument("-l", "--list-url", type=str, help="full url to imdb list")
+    args = parser.add_argument("-b", "--bash-command", type=str, help="bash command to execute with list titles")
+    args = parser.parse_args()
+
+    
+    time.sleep(5)
+    
+    
 
 
 
