@@ -1,28 +1,33 @@
-1776 (1972) William Daniels Howard Da Silva Ken Howard Drama Family History
-1945 (2017) Péter Rudolf Bence Tasnádi Tamás Szabó Kimmel Drama
-Aguirre, the Wrath of God (1972) Klaus Kinski Ruy Guerra Helena Rojo Action Adventure Biography
-Avanti! (1972) Jack Lemmon Juliet Mills Clive Revill Comedy Romance
-Blacula (1972) William Marshall Vonetta McGee Denise Nicholas Fantasy Horror Romance
-Cabaret (1972) Liza Minnelli Michael York Helmut Griem Drama Music Musical
-Conquest of the Planet of the Apes (1972) Roddy McDowall Don Murray Ricardo Montalban Action Sci-Fi
-Finch (2021) Tom Hanks Caleb Landry Jones Marie Wagenman Adventure Drama Sci-Fi
-Frenzy (1972) Jon Finch Barry Foster Barbara Leigh-Hunt Thriller
-Jeremiah Johnson (1972) Robert Redford Will Geer Delle Bolton Adventure Drama Western
-Last Tango in Paris (1972) Marlon Brando Maria Schneider Maria Michi Drama Romance
-Ocean's 11 (1960) Frank Sinatra Dean Martin Sammy Davis Jr. Comedy Crime Music
-Ocean's Eleven (2001) George Clooney Brad Pitt Julia Roberts Crime Thriller
-Ocean's Thirteen (2007) George Clooney Brad Pitt Matt Damon Crime Thriller
-Ocean's Twelve (2004) George Clooney Brad Pitt Julia Roberts Crime Thriller
-Play It Again, Sam (1972) Woody Allen Diane Keaton Tony Roberts Comedy Romance
-Silent Running (1972) Bruce Dern Cliff Potts Ron Rifkin Drama Sci-Fi
-Six: The Mark Unleashed (2004) Stephen Baldwin David A.R. White Kevin Downes Action Drama Sci-Fi
-Slaughterhouse-Five (1972) Michael Sacks Ron Leibman Eugene Roche Comedy Drama Sci-Fi
-The Getaway (1972) Steve McQueen Ali MacGraw Ben Johnson Action Crime Thriller
-The Vanished (2020) Anne Heche Thomas Jane Jason Patric Crime Mystery Thriller
-The Harder They Come (1972) Jimmy Cliff Janet Bartley Carl Bradshaw Crime Drama Music
-The Heartbreak Kid (1972) Charles Grodin Cybill Shepherd Jeannie Berlin Comedy Drama Romance
-The Mechanic (1972) Charles Bronson Jan-Michael Vincent Keenan Wynn Action Crime Thriller
-The Omega Code (1999) Casper Van Dien Michael York Catherine Oxenberg Action Adventure Fantasy
-The Other (1972) Uta Hagen Diana Muldaur Chris Udvarnoky Drama Horror Mystery
-The Ruling Class (1972) Peter O'Toole Alastair Sim Arthur Lowe Comedy Drama Musical
-Undertow (2004) Jamie Bell Josh Lucas Dermot Mulroney Drama Thriller
+The Exorcist (1973) Ellen Burstyn Max von Sydow Linda Blair Horror
+Exorcist II: The Heretic (1977) Richard Burton Linda Blair Louise Fletcher Horror
+The Exorcist III: Legion (1990) George C. Scott Ed Flanders Brad Dourif Horror Mystery Thriller
+Exorcist: The Beginning (2004) Stellan Skarsgård Izabella Scorupco James D'Arcy Horror Mystery Thriller
+Dominion (2005) Stellan Skarsgård Gabriel Mann Clara Bellar Drama Horror Thriller
+Aliens (1986) Sigourney Weaver Michael Biehn Carrie Henn Action Adventure Sci-Fi
+Dead End (2003) Ray Wise Lin Shaye Mick Cain Adventure Horror Mystery
+Drag Me to Hell (2009) Alison Lohman Justin Long Ruth Livier Horror
+At the Movies (1986–2010) NULL NULL NULL Talk-Show
+Insidious (2010) Patrick Wilson Rose Byrne Ty Simpkins Horror Mystery Thriller
+Insidious: Chapter 2 (2013) Patrick Wilson Rose Byrne Barbara Hershey Horror Mystery Thriller
+Insidious: Chapter 3 (2015) Dermot Mulroney Stefanie Scott Angus Sampson Horror Mystery Thriller
+Legion (2010) Paul Bettany Dennis Quaid Charles S. Dutton Action Fantasy Horror
+Movie 43 (2013) Emma Stone Stephen Merchant Richard Gere Comedy
+Planet Terror (2007) Rose McGowan Freddy Rodríguez Josh Brolin Action Comedy Fantasy
+Practical Magic (1998) Sandra Bullock Nicole Kidman Stockard Channing Comedy Drama Fantasy
+Prisoners of the Ghostland (2021) Nicolas Cage Sofia Boutella Nick Cassavetes Action Sci-Fi Thriller
+Putney Swope (1969) Arnold Johnson Stan Gottlieb Allen Garfield Comedy
+Resident Evil: Welcome to Raccoon City (2021) Kaya Scodelario Robbie Amell Hannah John-Kamen Action Horror Sci-Fi
+Silver Linings Playbook (2012) Bradley Cooper Jennifer Lawrence Robert De Niro Comedy Drama Romance
+Soul Surfer (2011) AnnaSophia Robb Dennis Quaid Helen Hunt Biography Drama Family
+The Amityville Horror (2005) Ryan Reynolds Melissa George Jimmy Bennett Horror
+The Beaver (2011) Mel Gibson Jodie Foster Anton Yelchin Drama
+The Conjuring: The Devil Made Me Do It (2021) Patrick Wilson Vera Farmiga Ruairi O'Connor Horror Mystery Thriller
+The Evil Dead (1981) Bruce Campbell Ellen Sandweiss Richard DeManincor Horror
+The Hitcher (1986) Rutger Hauer C. Thomas Howell Jennifer Jason Leigh Action Thriller
+Lady of the Manor (2021) Melanie Lynskey Judy Greer Justin Long Comedy
+The Nun (2018) Demián Bichir Taissa Farmiga Jonas Bloquet Horror Mystery Thriller
+The Skeleton Key (2005) Kate Hudson Peter Sarsgaard Joy Bryant Drama Horror Mystery
+The Stairs (2021) Kathleen Quinlan John Schneider Russell Hodgkinson Horror Sci-Fi
+The Texas Chainsaw Massacre (2003) Jessica Biel Jonathan Tucker Andrew Bryniarski Crime Horror
+The Poker House (2008) Jennifer Lawrence Javon Johnson Sophi Bairley Drama
+Vantage Point (2008) Dennis Quaid Forest Whitaker Matthew Fox Action Crime Drama
