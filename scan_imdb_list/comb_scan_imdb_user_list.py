@@ -86,7 +86,7 @@ def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
                 # time to change pages
                 print("Time to change pages")
         try:
-            print("clicking the next page button")
+            print("Clicking the next page button")
             next_page_button_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/div/a[2]")))
             next_page_button_link.click()
             # Sleep to make sure the page is turned before looking for the next set of titles
@@ -100,7 +100,7 @@ def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
                 time.sleep(5)
             except:
                 # Break from the loop
-                print("next page not located")
+                print("Next page not located")
                 page_break=True
 
     
