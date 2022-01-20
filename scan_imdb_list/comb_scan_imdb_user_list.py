@@ -66,17 +66,9 @@ titles_list = []
 # get titles list
 def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
     driver.get(f'{url_list}')
-
-
-    titles_count_text = WebDriverWait(driver, 8).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/span")))
-    string_to_be_cut = f"{titles_count_text.text}"
-    index_to_cut = string_to_be_cut.find('of ')
-    final_string = string_to_be_cut.
-    print(final_string)
-    return
-
-
+    
     page_break=False
+    title_count = 0
     # for page in imdb-list
     while page_break==False:
         # for link in page
@@ -85,8 +77,9 @@ def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
                 # Try to find the link in div[x], if not found try to move to next page
                 title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[3]/div[{link_number}]/div[2]/h3/a"))).text
                 year = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[3]/div[{link_number}]/div[2]/h3/span[2]"))).text
+                title_count+=1
                 print(YELLOW)
-                print(f"{title} {year}:")
+                print(f"{title_count}: {title} {year}:")
                 print(RESET)
                 use_ls_output_to_grep_to_see_if_title_exists(f"{title}")
             except:
@@ -102,7 +95,7 @@ def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
             # Try the second "next page button xpath"
             try:
                 next_page_button_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/a[2]")))
-                next_page_button_link.click()
+                next_page_button_link.click()                    
                 # Sleep to make sure the page is turned before looking for the next set of titles
                 time.sleep(5)
             except:
