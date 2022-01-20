@@ -75,8 +75,8 @@ def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
         for link_number in range(1,101, 1):
             try:
                 # Try to find the link in div[x], if not found try to move to next page
-                title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[3]/div[{link_number}]/div[2]/h3/a"))).text
-                year = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[3]/div[{link_number}]/div[2]/h3/span[2]"))).text
+                title = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[3]/div[{link_number}]/div[2]/h3/a"))).text
+                year = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[3]/div[{link_number}]/div[2]/h3/span[2]"))).text
                 title_count+=1
                 print(YELLOW)
                 print(f"{title_count}: {title} {year}:")
@@ -87,14 +87,14 @@ def get_titles_from_imdb_list_and_store_in_array(url_list: str) -> None:
                 print("Time to change pages")
         try:
             print("Clicking the next page button")
-            next_page_button_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/div/a[2]")))
+            next_page_button_link = WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/div/a[2]")))
             next_page_button_link.click()
             # Sleep to make sure the page is turned before looking for the next set of titles
             time.sleep(5)
         except:
             # Try the second "next page button xpath"
             try:
-                next_page_button_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/a[2]")))
+                next_page_button_link = WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, f"/html/body/div[3]/div/div[2]/div[3]/div[1]/div/div[4]/div[5]/div/div/a[2]")))
                 next_page_button_link.click()                    
                 # Sleep to make sure the page is turned before looking for the next set of titles
                 time.sleep(5)
